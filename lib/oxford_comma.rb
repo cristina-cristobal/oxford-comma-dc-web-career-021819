@@ -8,6 +8,6 @@ def oxfort_comma(array)
   elsif array.size == 1
     return array[0]
   else
-    return array[0..-2].join(', ') + ", and" + array[-1]
-  end 
+    return array[0..-2].join(', ') + ", and " + array[-1]
+  end
 end
