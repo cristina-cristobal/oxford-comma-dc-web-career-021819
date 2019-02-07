@@ -3,5 +3,6 @@ def oxford_comma(array)
 end
 
 def oxfort_comma(array)
-  array.join(" and ")
+  string = array.join(" and ")
+  string.split
 end
